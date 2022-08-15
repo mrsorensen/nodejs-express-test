@@ -6,6 +6,6 @@ app.get('/', (req, res) => {
   res.json({ message: 'Working' })
 })
 
-app.listen(8080, () => {
+app.listen(3000, () => {
   console.log('Server running')
 })
